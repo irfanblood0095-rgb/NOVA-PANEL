@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nova Panel</string>
+    <string name="grant_permission">Overlay Permission Grant Korun</string>
+    <string name="start_panel">Panel Chalu Korun</string>
+    <string name="stop_panel">Panel Bondho Korun</string>
+    <string name="notif_title">Nova Panel Active</string>
+    <string name="notif_text">Floating panel running</string>
+</resources>
