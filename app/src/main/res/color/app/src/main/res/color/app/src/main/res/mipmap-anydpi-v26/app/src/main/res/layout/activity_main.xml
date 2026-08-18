@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_dark"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOVA PANEL"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Floating UI Demo Panel"
+        android:textColor="@color/accent_cyan"
+        android:textSize="13sp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnGrantPermission"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/grant_permission"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_header_pill" />
+
+    <Button
+        android:id="@+id/btnStartPanel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/start_panel"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_header_pill" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Ei app ekta UI/theme demo. Kono game-e hook, memory access, ba root-based modification kore na — shob switch sudhu visual toggle."
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+</LinearLayout>
